@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" modified="2023-10-20T05:12:45.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dEBVMuZV0FvWTscTjAq-" version="22.0.5" type="device">
+  <diagram name="第 1 页" id="q2asNlYki9gL2x0bq14U">
+    <mxGraphModel dx="339" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="製造商資料表(&lt;u&gt;代號&lt;/u&gt;, 名稱, 電話, 地址)" placeholders="1" name="Variable" id="IMgGmOkAjyr2ttM1hkiZ-1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="60" y="300" width="240" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="產品資料表(&lt;u&gt;品號&lt;/u&gt;, 品名, 定價, &lt;font color=&quot;#ff1717&quot;&gt;代號&lt;/font&gt;)" placeholders="1" name="Variable" id="IMgGmOkAjyr2ttM1hkiZ-2">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="60" y="340" width="240" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="銷售資料表(&lt;u&gt;編號&lt;/u&gt;, &lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff1717&quot;&gt;品號&lt;/font&gt;&lt;/span&gt;, 數量)" placeholders="1" name="Variable" id="IMgGmOkAjyr2ttM1hkiZ-3">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="60" y="380" width="240" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="員工資料表(&lt;u&gt;編號&lt;/u&gt;, 姓名, 部門)" placeholders="1" name="Variable" id="IMgGmOkAjyr2ttM1hkiZ-4">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="60" y="420" width="240" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IMgGmOkAjyr2ttM1hkiZ-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.471;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.823;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IMgGmOkAjyr2ttM1hkiZ-2" target="IMgGmOkAjyr2ttM1hkiZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="370" as="sourcePoint" />
+            <mxPoint x="250" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMgGmOkAjyr2ttM1hkiZ-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.429;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.636;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IMgGmOkAjyr2ttM1hkiZ-3" target="IMgGmOkAjyr2ttM1hkiZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMgGmOkAjyr2ttM1hkiZ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IMgGmOkAjyr2ttM1hkiZ-3" target="IMgGmOkAjyr2ttM1hkiZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

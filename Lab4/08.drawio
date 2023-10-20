@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2023-10-20T05:34:35.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Oxh5NdnncnQ_Fiw-L0xR" version="22.0.5" type="device">
+  <diagram name="第 1 页" id="Xph3CqnGZRcZRhZwDnia">
+    <mxGraphModel dx="197" dy="299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="A(&lt;u&gt;a1&lt;/u&gt;, a2)" placeholders="1" name="Variable" id="4nqmKLxRnvRF6M06534l-1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="240" y="400" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="B(&lt;u&gt;b1&lt;/u&gt;, b2)" placeholders="1" name="Variable" id="4nqmKLxRnvRF6M06534l-2">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="240" y="440" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="C(&lt;u&gt;c1&lt;/u&gt;, c2, &lt;font color=&quot;#ff0000&quot;&gt;a1&lt;/font&gt;)" placeholders="1" name="Variable" id="4nqmKLxRnvRF6M06534l-3">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="240" y="480" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="R1(&lt;u&gt;a1&lt;/u&gt;, &lt;u&gt;b1&lt;/u&gt;)" placeholders="1" name="Variable" id="4nqmKLxRnvRF6M06534l-4">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="240" y="520" width="120" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4nqmKLxRnvRF6M06534l-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4nqmKLxRnvRF6M06534l-3" target="4nqmKLxRnvRF6M06534l-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="510" as="sourcePoint" />
+            <mxPoint x="310" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
