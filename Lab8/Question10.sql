@@ -1,4 +1,4 @@
-SELECT S_id AVG(QUAN) AS 平均數量
+SELECT S_id AVG(Quan) AS 平均數量
 FROM [master].[dbo].[Sales]
 GROUP BY S_id
 HAVING AVG(QUAN)>= 70
